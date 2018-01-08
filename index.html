@@ -15,6 +15,48 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h2>Rock Paper Scissors</h2>
+        </div>
+        <div class="row">
+            <div class="name text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+            </div>
+            <div class="game-box text-center col-lg-3 justify-content-lg-center col-md-3 col-sm-3 col-xs-12">
+                <div id="player-one"></div>
+                <div class="rps"></div>
+                <div class="results results-one"></div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+            <div class="game-box text-center col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="game-result"></div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+            <div class="game-box text-center col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div id="player-two"></div>
+                <div class="rps"></div>
+                <div class="results results-two"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="chat"></div>
+                <div class="chat-input">
+                    <form id="topic-form">
+                        <input type="text" id="topic-input">
+                        <input id="add-topic" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>

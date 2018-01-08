@@ -1,0 +1,19 @@
+.game-box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.results {
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+
+.chat {
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+}
